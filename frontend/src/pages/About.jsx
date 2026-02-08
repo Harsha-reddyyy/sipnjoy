@@ -144,7 +144,7 @@ export const About = () => {
               },
               {
                 title: 'Value for Money',
-                description: 'Premium quality at student-friendly prices. Great taste doesn't have to break the bank.',
+                description: 'Premium quality at student-friendly prices. Great taste does not have to break the bank.',
                 image: 'https://images.unsplash.com/photo-1549804795-05e3d7ec4d3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwzfHxjYWZlJTIwYW1iaWVuY2V8ZW58MHx8fHwxNzcwNTM5MDc4fDA&ixlib=rb-4.1.0&q=85'
               }
             ].map((item, index) => (
