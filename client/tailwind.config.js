@@ -1,9 +1,11 @@
+import tailwindcssAnimate from "tailwindcss-animate";
+
 /** @type {import('tailwindcss').Config} */
 export default {
     darkMode: ["class"],
     content: [
     "./src/**/*.{js,jsx,ts,tsx}",
-    "./public/index.html"
+    "./index.html"
   ],
   theme: {
   	extend: {
@@ -75,7 +77,8 @@ export default {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
+  		}
   	}
   },
-  plugins: [import("tailwindcss-animate")],
-}};
+  plugins: [tailwindcssAnimate],
+};

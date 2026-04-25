@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="https://customer-assets.emergentagent.com/job_coffee-joy-cafe/artifacts/ztvr6ls9_download.png" 
+                src="/logo.png" 
                 alt="Sip N Joy Logo" 
                 className="h-12 w-12"
               />

@@ -35,7 +35,7 @@ export const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img 
-              src="https://customer-assets.emergentagent.com/job_coffee-joy-cafe/artifacts/ztvr6ls9_download.png" 
+              src="/logo.png" 
               alt="Sip N Joy Logo" 
               className="h-12 w-12 transition-transform duration-300 group-hover:scale-110"
             />
